@@ -1,0 +1,17 @@
+/home/controlslab/rickyws/install/keyboard/lib/keyboard/keyboard
+/home/controlslab/rickyws/install/keyboard/lib/keyboard/keyboard_to_joy.py
+/home/controlslab/rickyws/install/keyboard/share/ament_index/resource_index/package_run_dependencies/keyboard
+/home/controlslab/rickyws/install/keyboard/share/ament_index/resource_index/parent_prefix_path/keyboard
+/home/controlslab/rickyws/install/keyboard/share/keyboard/environment/ament_prefix_path.sh
+/home/controlslab/rickyws/install/keyboard/share/keyboard/environment/ament_prefix_path.dsv
+/home/controlslab/rickyws/install/keyboard/share/keyboard/environment/path.sh
+/home/controlslab/rickyws/install/keyboard/share/keyboard/environment/path.dsv
+/home/controlslab/rickyws/install/keyboard/share/keyboard/local_setup.bash
+/home/controlslab/rickyws/install/keyboard/share/keyboard/local_setup.sh
+/home/controlslab/rickyws/install/keyboard/share/keyboard/local_setup.zsh
+/home/controlslab/rickyws/install/keyboard/share/keyboard/local_setup.dsv
+/home/controlslab/rickyws/install/keyboard/share/keyboard/package.dsv
+/home/controlslab/rickyws/install/keyboard/share/ament_index/resource_index/packages/keyboard
+/home/controlslab/rickyws/install/keyboard/share/keyboard/cmake/keyboardConfig.cmake
+/home/controlslab/rickyws/install/keyboard/share/keyboard/cmake/keyboardConfig-version.cmake
+/home/controlslab/rickyws/install/keyboard/share/keyboard/package.xml

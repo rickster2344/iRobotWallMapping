@@ -1,0 +1,10 @@
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/uninstall.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/keyboard_uninstall.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/keyboard.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/test.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/edit_cache.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/rebuild_cache.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/list_install_components.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/install.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/install/local.dir
+/home/controlslab/rickyws/build/keyboard/CMakeFiles/install/strip.dir
