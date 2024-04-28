@@ -1,0 +1,22 @@
+[0.359s] Invoking command in '/home/controlslab/rickyws/src/followWall': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs PYTHONPATH=/home/controlslab/rickyws/build/followWall/prefix_override:/home/controlslab/rickyws/install/followWall/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/followWall build --build-base /home/controlslab/rickyws/build/followWall/build install --record /home/controlslab/rickyws/build/followWall/install.log --single-version-externally-managed install_data
+[0.495s] running egg_info
+[0.495s] writing ../../build/followWall/followWall.egg-info/PKG-INFO
+[0.495s] writing dependency_links to ../../build/followWall/followWall.egg-info/dependency_links.txt
+[0.495s] writing entry points to ../../build/followWall/followWall.egg-info/entry_points.txt
+[0.495s] writing requirements to ../../build/followWall/followWall.egg-info/requires.txt
+[0.495s] writing top-level names to ../../build/followWall/followWall.egg-info/top_level.txt
+[0.497s] reading manifest file '../../build/followWall/followWall.egg-info/SOURCES.txt'
+[0.497s] adding license file 'LICENSE'
+[0.497s] writing manifest file '../../build/followWall/followWall.egg-info/SOURCES.txt'
+[0.497s] running build
+[0.497s] running build_py
+[0.497s] running install
+[0.497s] running install_lib
+[0.498s] running install_data
+[0.498s] running install_egg_info
+[0.499s] removing '/home/controlslab/rickyws/install/followWall/lib/python3.10/site-packages/followWall-0.0.0-py3.10.egg-info' (and everything under it)
+[0.499s] Copying ../../build/followWall/followWall.egg-info to /home/controlslab/rickyws/install/followWall/lib/python3.10/site-packages/followWall-0.0.0-py3.10.egg-info
+[0.499s] running install_scripts
+[0.511s] Installing robot1_teleop script to /home/controlslab/rickyws/install/followWall/lib/followWall
+[0.511s] writing list of installed files to '/home/controlslab/rickyws/build/followWall/install.log'
+[0.525s] Invoked command in '/home/controlslab/rickyws/src/followWall' returned '0': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs PYTHONPATH=/home/controlslab/rickyws/build/followWall/prefix_override:/home/controlslab/rickyws/install/followWall/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/followWall build --build-base /home/controlslab/rickyws/build/followWall/build install --record /home/controlslab/rickyws/build/followWall/install.log --single-version-externally-managed install_data

@@ -14,12 +14,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='controlslab',
-    maintainer_email='khushant.khurana11@gmail.com',
-    description='TODO: Package description',
-    license='Apache-2.0',
+    maintainer_email='rickster2344@gmail.com',
+    description='Wall following script for the create3 roomba',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                #defines the teleop entry point in the followWall package, using the robot1Teleop.py script
+                'robot1_teleop = followWall.robot1Teleop:main'
         ],
     },
 )
