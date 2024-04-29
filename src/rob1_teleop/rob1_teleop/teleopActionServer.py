@@ -45,35 +45,54 @@ class teleopActionServer(Node):
                                                 'robot_1/odom',
                                                 self.pose_callback,
                                                 qos_profile =qos_prof)
+        
         #define storage variables for the position of robot1
+        #understand quaternians w/ 3blue1brown video and interactive learning module: eater.net/quaternions
         self.init_Pose = Pose()
         self.curr_Pose = Pose()
+        self.initial = True
 
         #declaring subscriber to the 'keydown' topic, listening for message of type Key,
         self.keySub = self.create_subscription(Key, 'keydown', self.keypress_callback, 10)
         
-    def pose_callback(self, msg_in):
-        i = 0
-        if i == 0:
-            #initialising the position of the roomba 
+    def pose_callback(self, msg_in: Odometry):
+        #initialising the position of robot1 
+        if self.initial == True:
             self.init_Pose = msg_in.pose
-            i+=1
+            self.intiial = False
+        #always update the position of the roomba
+        self.curr_Pose = msg_in.pose
 
 
-    def execute_callback(self, goal_handle):
+    def execute_callback(self, goal_handle: Pose): #Pose is the object type of goal it will receive
+        target_rot = goal_handle.orientation.z
+
         pass
         #method that is called to execute a goal once it is accepted
-        self.get_logger().info('Rotating...')
+        # self.get_logger().info('Rotating...')
         
-        feedback_msg = teleopActionServer.Feedback()
+        # feedback_msg = teleopActionServer.Feedback()
         # teleopAction.updateMessage 
         
     def keypress_callback(self, msg_in):
-        #function to print when the subscriber recieves data
-        keypressed = msg_in.code
-        self.get_logger().info(f'Key pressed: {keypressed}') #publish to console
-        
-        # self.publisher_.publish(msg_out)# publish msg_out to robot_1/cmd_vel
+        #function to execute when the subscriber recieves data
+        match msg_in.code:
+            case ord(e):
+                self.teleop_server.publish()
+                pass
+            # case ord(r):
+            # case ord(t):
+            # case ord(g):
+            # case ord(b):
+            # case ord(v):
+            # case ord(c):
+            # case ord(d):
+            # case ord(f):
+            # case default:
+        self.get_logger().info(f'Key pressed: {chr(msg_in.code)}') #publish to console
+
+
+
 
 def main(args=None):
     rclpy.init(args=args)

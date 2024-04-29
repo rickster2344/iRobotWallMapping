@@ -4,5 +4,3 @@ robot1_interfaces.egg-info/PKG-INFO
 robot1_interfaces.egg-info/SOURCES.txt
 robot1_interfaces.egg-info/dependency_links.txt
 robot1_interfaces.egg-info/top_level.txt
-robot1_interfaces/action/__init__.py
-robot1_interfaces/action/_teleop.py

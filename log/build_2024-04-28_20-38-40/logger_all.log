@@ -1,0 +1,366 @@
+[0.052s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.052s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b797e2d13f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b797e2d0f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b797e2d0f40>>)
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.142s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.142s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/controlslab/rickyws'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/rob1_teleop) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rob1_teleop' with type 'ros.ament_python' and name 'rob1_teleop'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extension 'colcon_meta'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extensions ['ros']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot1_interfaces) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot1_interfaces' with type 'ros.ament_cmake' and name 'robot1_interfaces'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'ros'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['cmake', 'python']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'cmake'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'python'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extensions ['python_setup_py']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard) by extension 'python_setup_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-keyboard/keyboard' with type 'ros.ament_cmake' and name 'keyboard'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-keyboard/keyboard_msgs) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-keyboard/keyboard_msgs' with type 'ros.ament_cmake' and name 'keyboard_msgs'
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.153s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/robot1_teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/rob1_teleop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/keyboard' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/robot1_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/keyboard_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/controlslab/rickyws/install/action_tutorials_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/controlslab/rickyws/install/keyboard' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/controlslab/rickyws/install/robot1_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/controlslab/rickyws/install/keyboard_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/controlslab/rickyws/install/action_tutorials_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/controlslab/rickyws/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/controlslab/create3_examples_ws/install
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_args' from command line to 'None'
+[0.191s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/controlslab/rickyws/build/keyboard_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/controlslab/rickyws/install/keyboard_msgs', 'merge_install': False, 'path': '/home/controlslab/rickyws/src/ros2-keyboard/keyboard_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'robot1_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'robot1_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/controlslab/rickyws/build/robot1_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/controlslab/rickyws/install/robot1_interfaces', 'merge_install': False, 'path': '/home/controlslab/rickyws/src/robot1_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.192s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/controlslab/rickyws/build/keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/controlslab/rickyws/install/keyboard', 'merge_install': False, 'path': '/home/controlslab/rickyws/src/ros2-keyboard/keyboard', 'symlink_install': False, 'test_result_base': None}
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_target' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.192s] Level 5:colcon.colcon_core.verb:set package 'rob1_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'rob1_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/controlslab/rickyws/build/rob1_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/controlslab/rickyws/install/rob1_teleop', 'merge_install': False, 'path': '/home/controlslab/rickyws/src/rob1_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.193s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/controlslab/rickyws/src/ros2-keyboard/keyboard_msgs' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/controlslab/rickyws/src/ros2-keyboard/keyboard_msgs'
+[0.195s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.195s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.195s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/controlslab/rickyws/src/robot1_interfaces' with build type 'ament_cmake'
+[0.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/controlslab/rickyws/src/robot1_interfaces'
+[0.197s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/controlslab/rickyws/src/ros2-keyboard/keyboard_msgs -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/keyboard_msgs
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/robot1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/controlslab/rickyws/src/robot1_interfaces -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/robot1_interfaces
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/robot1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/controlslab/rickyws/src/robot1_interfaces -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/robot1_interfaces
+[1.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/robot1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/controlslab/rickyws/build/robot1_interfaces -- -j16 -l16
+[1.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake /home/controlslab/rickyws/src/ros2-keyboard/keyboard_msgs -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/keyboard_msgs
+[1.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/controlslab/rickyws/build/keyboard_msgs -- -j16 -l16
+[3.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/robot1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/controlslab/rickyws/build/robot1_interfaces -- -j16 -l16
+[4.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/robot1_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/controlslab/rickyws/build/robot1_interfaces
+[4.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot1_interfaces)
+[4.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/robot1_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/controlslab/rickyws/build/robot1_interfaces
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces' for CMake module files
+[4.111s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces' for CMake config files
+[4.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1_interfaces', 'cmake_prefix_path')
+[4.112s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.ps1'
+[4.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.dsv'
+[4.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.sh'
+[4.115s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib'
+[4.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1_interfaces', 'ld_library_path_lib')
+[4.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.dsv'
+[4.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.sh'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/bin'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib/pkgconfig/robot1_interfaces.pc'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib/python3.10/site-packages'
+[4.117s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/bin'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.ps1'
+[4.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.dsv'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.sh'
+[4.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.bash'
+[4.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.zsh'
+[4.123s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/robot1_interfaces/share/colcon-core/packages/robot1_interfaces)
+[4.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot1_interfaces)
+[4.176s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces' for CMake module files
+[4.177s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces' for CMake config files
+[4.178s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1_interfaces', 'cmake_prefix_path')
+[4.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.ps1'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.dsv'
+[4.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/cmake_prefix_path.sh'
+[4.180s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib'
+[4.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot1_interfaces', 'ld_library_path_lib')
+[4.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.ps1'
+[4.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.dsv'
+[4.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/hook/ld_library_path_lib.sh'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/bin'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib/pkgconfig/robot1_interfaces.pc'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/lib/python3.10/site-packages'
+[4.182s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/robot1_interfaces/bin'
+[4.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.ps1'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.dsv'
+[4.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.sh'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.bash'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/robot1_interfaces/share/robot1_interfaces/package.zsh'
+[4.186s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/robot1_interfaces/share/colcon-core/packages/robot1_interfaces)
+[7.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --build /home/controlslab/rickyws/build/keyboard_msgs -- -j16 -l16
+[7.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/controlslab/rickyws/build/keyboard_msgs
+[7.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_msgs)
+[7.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble /usr/bin/cmake --install /home/controlslab/rickyws/build/keyboard_msgs
+[7.772s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs' for CMake module files
+[7.773s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs' for CMake config files
+[7.773s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'cmake_prefix_path')
+[7.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.ps1'
+[7.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.dsv'
+[7.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.sh'
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib'
+[7.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'ld_library_path_lib')
+[7.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.ps1'
+[7.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.dsv'
+[7.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.sh'
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/bin'
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib/pkgconfig/keyboard_msgs.pc'
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib/python3.10/site-packages'
+[7.774s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/bin'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.ps1'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.dsv'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.sh'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.bash'
+[7.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.zsh'
+[7.775s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/keyboard_msgs/share/colcon-core/packages/keyboard_msgs)
+[7.810s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_msgs)
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs' for CMake module files
+[7.810s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs' for CMake config files
+[7.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'cmake_prefix_path')
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.ps1'
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.dsv'
+[7.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/cmake_prefix_path.sh'
+[7.811s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib'
+[7.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_msgs', 'ld_library_path_lib')
+[7.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.ps1'
+[7.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.dsv'
+[7.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/hook/ld_library_path_lib.sh'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/bin'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib/pkgconfig/keyboard_msgs.pc'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/lib/python3.10/site-packages'
+[7.812s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard_msgs/bin'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.ps1'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.dsv'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.sh'
+[7.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.bash'
+[7.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard_msgs/share/keyboard_msgs/package.zsh'
+[7.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/keyboard_msgs/share/colcon-core/packages/keyboard_msgs)
+[7.814s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/controlslab/rickyws/src/ros2-keyboard/keyboard' with build type 'ament_cmake'
+[7.814s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/controlslab/rickyws/src/ros2-keyboard/keyboard'
+[7.814s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.814s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.816s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/controlslab/rickyws/src/rob1_teleop' with build type 'ament_python'
+[7.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob1_teleop', 'ament_prefix_path')
+[7.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/ament_prefix_path.ps1'
+[7.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/ament_prefix_path.dsv'
+[7.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/ament_prefix_path.sh'
+[7.817s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.817s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/controlslab/rickyws/src/ros2-keyboard/keyboard -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/keyboard
+[7.984s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/controlslab/rickyws/src/rob1_teleop'
+[7.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/src/rob1_teleop': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/controlslab/rickyws/build/rob1_teleop/prefix_override:/home/controlslab/rickyws/install/rob1_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rob1_teleop build --build-base /home/controlslab/rickyws/build/rob1_teleop/build install --record /home/controlslab/rickyws/build/rob1_teleop/install.log --single-version-externally-managed install_data
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop' for CMake module files
+[8.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/src/rob1_teleop' returned '0': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/controlslab/rickyws/build/rob1_teleop/prefix_override:/home/controlslab/rickyws/install/rob1_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/rob1_teleop build --build-base /home/controlslab/rickyws/build/rob1_teleop/build install --record /home/controlslab/rickyws/build/rob1_teleop/install.log --single-version-externally-managed install_data
+[8.396s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop' for CMake config files
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop/lib'
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop/bin'
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop/lib/pkgconfig/rob1_teleop.pc'
+[8.397s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop/lib/python3.10/site-packages'
+[8.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('rob1_teleop', 'pythonpath')
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/pythonpath.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/pythonpath.dsv'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/hook/pythonpath.sh'
+[8.398s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/rob1_teleop/bin'
+[8.398s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rob1_teleop)
+[8.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/package.ps1'
+[8.398s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/package.dsv'
+[8.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/package.sh'
+[8.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/package.bash'
+[8.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/rob1_teleop/share/rob1_teleop/package.zsh'
+[8.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/rob1_teleop/share/colcon-core/packages/rob1_teleop)
+[8.603s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/controlslab/rickyws/src/ros2-keyboard/keyboard -DCMAKE_INSTALL_PREFIX=/home/controlslab/rickyws/install/keyboard
+[8.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/controlslab/rickyws/build/keyboard -- -j16 -l16
+[11.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/controlslab/rickyws/build/keyboard -- -j16 -l16
+[11.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/controlslab/rickyws/build/keyboard': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/controlslab/rickyws/build/keyboard
+[11.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[11.093s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard' for CMake module files
+[11.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/controlslab/rickyws/build/keyboard' returned '0': CMAKE_PREFIX_PATH=/home/controlslab/rickyws/install/keyboard_msgs:/home/controlslab/rickyws/install/keyboard:/home/controlslab/rickyws/install/robot1_interfaces:/home/controlslab/rickyws/install/action_tutorials_interfaces:/home/controlslab/create3_examples_ws/install/create3_lidar_slam:/home/controlslab/create3_examples_ws/install/create3_coverage:/home/controlslab/create3_examples_ws/install/create3_examples_msgs:/home/controlslab/rickyws/install/robot1_teleop:/home/controlslab/rickyws/install/rob1_teleop:/home/controlslab/create3_examples_ws/install/create3_teleop:/home/controlslab/create3_examples_ws/install/create3_examples_py:/opt/ros/humble LD_LIBRARY_PATH=/home/controlslab/rickyws/install/keyboard_msgs/lib:/home/controlslab/rickyws/install/robot1_interfaces/lib:/home/controlslab/rickyws/install/action_tutorials_interfaces/lib:/home/controlslab/create3_examples_ws/install/create3_coverage/lib:/home/controlslab/create3_examples_ws/install/create3_examples_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/controlslab/rickyws/build/keyboard
+[11.094s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard' for CMake config files
+[11.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[11.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[11.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[11.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[11.095s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib'
+[11.095s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/bin'
+[11.095s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[11.095s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib/python3.10/site-packages'
+[11.095s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/bin'
+[11.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.ps1'
+[11.095s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.dsv'
+[11.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.sh'
+[11.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.bash'
+[11.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.zsh'
+[11.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/keyboard/share/colcon-core/packages/keyboard)
+[11.110s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard)
+[11.111s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard' for CMake module files
+[11.111s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard' for CMake config files
+[11.111s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard', 'cmake_prefix_path')
+[11.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.ps1'
+[11.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.dsv'
+[11.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/controlslab/rickyws/install/keyboard/share/keyboard/hook/cmake_prefix_path.sh'
+[11.111s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib'
+[11.112s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/bin'
+[11.112s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib/pkgconfig/keyboard.pc'
+[11.112s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/lib/python3.10/site-packages'
+[11.112s] Level 1:colcon.colcon_core.environment:checking '/home/controlslab/rickyws/install/keyboard/bin'
+[11.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.ps1'
+[11.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.dsv'
+[11.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.sh'
+[11.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.bash'
+[11.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/controlslab/rickyws/install/keyboard/share/keyboard/package.zsh'
+[11.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/controlslab/rickyws/install/keyboard/share/colcon-core/packages/keyboard)
+[11.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.113s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.113s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.116s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.124s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/controlslab/rickyws/install/local_setup.ps1'
+[11.125s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/controlslab/rickyws/install/_local_setup_util_ps1.py'
+[11.126s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/controlslab/rickyws/install/setup.ps1'
+[11.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/controlslab/rickyws/install/local_setup.sh'
+[11.128s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/controlslab/rickyws/install/_local_setup_util_sh.py'
+[11.128s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/controlslab/rickyws/install/setup.sh'
+[11.129s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/controlslab/rickyws/install/local_setup.bash'
+[11.130s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/controlslab/rickyws/install/setup.bash'
+[11.131s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/controlslab/rickyws/install/local_setup.zsh'
+[11.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/controlslab/rickyws/install/setup.zsh'
