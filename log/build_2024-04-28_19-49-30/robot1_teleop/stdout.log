@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/robot1_teleop/rob1_teleop.egg-info
+writing ../../build/robot1_teleop/rob1_teleop.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot1_teleop/rob1_teleop.egg-info/dependency_links.txt
+writing entry points to ../../build/robot1_teleop/rob1_teleop.egg-info/entry_points.txt
+writing requirements to ../../build/robot1_teleop/rob1_teleop.egg-info/requires.txt
+writing top-level names to ../../build/robot1_teleop/rob1_teleop.egg-info/top_level.txt
+writing manifest file '../../build/robot1_teleop/rob1_teleop.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot1_teleop/rob1_teleop.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot1_teleop/rob1_teleop.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/controlslab/rickyws/build/robot1_teleop/build
+creating /home/controlslab/rickyws/build/robot1_teleop/build/lib
+creating /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop
+copying rob1_teleop/teleopActionClient.py -> /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop
+copying rob1_teleop/robot1teleop.py -> /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop
+copying rob1_teleop/telopActionServer.py -> /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop
+copying rob1_teleop/__init__.py -> /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop
+running install
+running install_lib
+creating /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop
+copying /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop/teleopActionClient.py -> /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop
+copying /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop/robot1teleop.py -> /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop
+copying /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop/telopActionServer.py -> /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop
+copying /home/controlslab/rickyws/build/robot1_teleop/build/lib/rob1_teleop/__init__.py -> /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop
+byte-compiling /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop/teleopActionClient.py to teleopActionClient.cpython-310.pyc
+byte-compiling /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop/robot1teleop.py to robot1teleop.cpython-310.pyc
+byte-compiling /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop/telopActionServer.py to telopActionServer.cpython-310.pyc
+byte-compiling /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/rob1_teleop -> /home/controlslab/rickyws/install/robot1_teleop/share/ament_index/resource_index/packages
+creating /home/controlslab/rickyws/install/robot1_teleop/share/rob1_teleop
+copying package.xml -> /home/controlslab/rickyws/install/robot1_teleop/share/rob1_teleop
+running install_egg_info
+Copying ../../build/robot1_teleop/rob1_teleop.egg-info to /home/controlslab/rickyws/install/robot1_teleop/lib/python3.10/site-packages/rob1_teleop-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robot1_teleop script to /home/controlslab/rickyws/install/robot1_teleop/lib/rob1teleop
+writing list of installed files to '/home/controlslab/rickyws/build/robot1_teleop/install.log'

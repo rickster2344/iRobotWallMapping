@@ -1,3 +1,0 @@
-[console_scripts]
-robot1_teleop = followWall.robot1Teleop:main
-

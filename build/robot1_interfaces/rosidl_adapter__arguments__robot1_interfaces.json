@@ -1,0 +1,6 @@
+{
+  "package_name": "robot1_interfaces",
+  "non_idl_tuples": [
+    "/home/controlslab/rickyws/src/robot1_interfaces:action/Teleop.action"
+  ]
+}

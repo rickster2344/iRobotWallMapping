@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot1_interfaces/action/Teleop.action
+// generated code does not contain a copyright notice
+
+
+module robot1_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct Teleop_Goal {
+      int32 target_direction;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct Teleop_Result {
+      int32 reached_direction;
+    };
+    @verbatim (language="comment", text=
+      "Feedback -- is optional" "\n"
+      "good tutorial: https://www.youtube.com/watch?v=X7YSnDbKMWo")
+    struct Teleop_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};
